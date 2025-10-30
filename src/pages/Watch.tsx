@@ -14,7 +14,7 @@ const Watch = () => {
     },
     mostro_florenca: {
       title: "O Monstro de Florença",
-      description: "Um thriller investigativo baseado em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas. Uma história perturbadora de crime, investigação e mistério que manteve a polícia italiana em alerta por anos.",
+      description: "Mini série de 4 episódios baseada em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas. Uma história perturbadora de crime, investigação e mistério que manteve a polícia italiana em alerta por anos.",
       embedUrl: "https://drive.google.com/file/d/1_QJKNWOBETdcZtpPnrv_X6qU36SPT7wH/preview",
     },
   };

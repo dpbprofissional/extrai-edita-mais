@@ -11,7 +11,7 @@ const Movies = () => {
     {
       id: "mostro_florenca",
       title: "O Monstro de Florença",
-      description: "Um thriller investigativo baseado em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas.",
+      description: "Mini série de 4 episódios baseada em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas.",
     },
   ];
 
