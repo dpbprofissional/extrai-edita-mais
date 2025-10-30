@@ -30,10 +30,10 @@ const Watch = () => {
         <div className="max-w-7xl mx-auto">
           <div className="aspect-video w-full rounded-lg overflow-hidden bg-black mb-6">
             <iframe
-              src={`https://short.icu/${id}`}
+              src="https://drive.google.com/file/d/1m3R1cpTK3fbAqtE_0EF7WuQeg6vguj7n/preview"
               className="w-full h-full"
               frameBorder="0"
-              scrolling="no"
+              allow="autoplay"
               allowFullScreen
               title={movie.title}
             />
