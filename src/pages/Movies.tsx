@@ -8,6 +8,11 @@ const Movies = () => {
       title: "A Longa Marcha, Caminhe ou Morra",
       description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados.",
     },
+    {
+      id: "mostro_florenca",
+      title: "O Monstro de Florença",
+      description: "Um thriller investigativo baseado em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas.",
+    },
   ];
 
   return (

@@ -6,10 +6,16 @@ import { Navbar } from "@/components/Navbar";
 const Watch = () => {
   const { id } = useParams();
 
-  const movieDetails: Record<string, { title: string; description: string }> = {
+  const movieDetails: Record<string, { title: string; description: string; embedUrl: string }> = {
     QiOnk_8Sw: {
       title: "A Longa Marcha, Caminhe ou Morra",
       description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados. Uma jornada intensa de sobrevivência e resistência.",
+      embedUrl: "https://drive.google.com/file/d/1m3R1cpTK3fbAqtE_0EF7WuQeg6vguj7n/preview",
+    },
+    mostro_florenca: {
+      title: "O Monstro de Florença",
+      description: "Um thriller investigativo baseado em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas. Uma história perturbadora de crime, investigação e mistério que manteve a polícia italiana em alerta por anos.",
+      embedUrl: "https://drive.google.com/file/d/1_QJKNWOBETdcZtpPnrv_X6qU36SPT7wH/preview",
     },
   };
 
@@ -30,7 +36,7 @@ const Watch = () => {
         <div className="max-w-7xl mx-auto">
           <div className="aspect-video w-full rounded-lg overflow-hidden bg-black mb-6">
             <iframe
-              src="https://drive.google.com/file/d/1m3R1cpTK3fbAqtE_0EF7WuQeg6vguj7n/preview"
+              src={movie.embedUrl}
               className="w-full h-full"
               frameBorder="0"
               allow="autoplay"
