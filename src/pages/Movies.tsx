@@ -5,8 +5,8 @@ const Movies = () => {
   const movies = [
     {
       id: "QiOnk_8Sw",
-      title: "Filme Especial",
-      description: "Um filme incrível que você não pode perder. Assista agora e mergulhe nesta experiência cinematográfica única.",
+      title: "A Longa Marcha, Caminhe ou Morra",
+      description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados.",
     },
   ];
 

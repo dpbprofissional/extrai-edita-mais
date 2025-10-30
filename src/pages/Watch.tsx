@@ -8,8 +8,8 @@ const Watch = () => {
 
   const movieDetails: Record<string, { title: string; description: string }> = {
     QiOnk_8Sw: {
-      title: "Filme Especial",
-      description: "Um filme incrível que você não pode perder. Aproveite cada momento desta experiência cinematográfica única.",
+      title: "A Longa Marcha, Caminhe ou Morra",
+      description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados. Uma jornada intensa de sobrevivência e resistência.",
     },
   };
 
