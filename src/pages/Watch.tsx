@@ -6,18 +6,57 @@ import { Navbar } from "@/components/Navbar";
 const Watch = () => {
   const { id } = useParams();
 
-  const movieDetails: Record<string, { title: string; description: string; embedUrl: string }> = {
-    QiOnk_8Sw: {
-      title: "A Longa Marcha, Caminhe ou Morra",
-      description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados. Uma jornada intensa de sobrevivência e resistência.",
-      embedUrl: "https://mxdrop.to/e/dkrd6m1eu8k8p6",
+  const movieDetails: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    type: "movie" | "series";
+    embedUrl?: string;
+    seasons?: {
+      [seasonNumber: string]: {
+        [episodeNumber: string]: {
+          title: string;
+          embedUrl: {
+            dublado: string;
+            legendado: string;
+          };
+        };
+      };
+    };
+  }
+> = {
+  QiOnk_8Sw: {
+    title: "A Longa Marcha, Caminhe ou Morra",
+    description: "Em um futuro distópico...",
+    type: "movie",
+    embedUrl: "https://mxdrop.to/e/dkrd6m1eu8k8p6",
+  },
+
+  mostro_florenca: {
+    title: "O Monstro de Florença",
+    description: "Mini série baseada em fatos reais...",
+    type: "series",
+    seasons: {
+      "1": {
+        "1": {
+          title: "Episódio 1 - O Início",
+          embedUrl: {
+            dublado: "https://mxdrop.to/e/episodio1-dub",
+            legendado: "https://mxdrop.to/e/episodio1-leg",
+          },
+        },
+        "2": {
+          title: "Episódio 2 - O Mistério Aprofunda",
+          embedUrl: {
+            dublado: "https://mxdrop.to/e/episodio2-dub",
+            legendado: "https://mxdrop.to/e/episodio2-leg",
+          },
+        },
+      },
     },
-    mostro_florenca: {
-      title: "O Monstro de Florença",
-      description: "Mini série de 4 episódios baseada em fatos reais sobre os assassinatos que aterrorizaram Florença, Itália, durante décadas. Uma história perturbadora de crime, investigação e mistério que manteve a polícia italiana em alerta por anos.",
-      embedUrl: "https://mxdrop.to/e/gjdk3n9jsplpd0",
-    },
-  };
+  },
+};
 
   const movie = movieDetails[id || ""] || movieDetails.QiOnk_8Sw;
 
