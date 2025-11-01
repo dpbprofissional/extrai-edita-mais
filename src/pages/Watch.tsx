@@ -60,7 +60,7 @@ const Watch = () => {
           "3": {
             title: "Episódio 3 - As Pistas Somem",
             embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio3-dub",
+              dublado: "https://mxdrop.to/e/z1jz3113cx3qjo",
               legendado: "https://mxdrop.to/e/episodio3-leg",
             },
           },
