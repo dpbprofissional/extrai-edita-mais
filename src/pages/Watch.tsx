@@ -10,7 +10,7 @@ const Watch = () => {
     QiOnk_8Sw: {
       title: "A Longa Marcha, Caminhe ou Morra",
       description: "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados. Uma jornada intensa de sobrevivência e resistência.",
-      embedUrl: "https://drive.google.com/file/d/1m3R1cpTK3fbAqtE_0EF7WuQeg6vguj7n/preview",
+      embedUrl: "https://mxdrop.to/e/dkrd6m1eu8k8p6",
     },
     mostro_florenca: {
       title: "O Monstro de Florença",
