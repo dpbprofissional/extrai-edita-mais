@@ -72,6 +72,9 @@ const Watch = () => {
             },
           },
         },
+      },
+    },
+  }; // ← FECHAMENTO CORRETO DO OBJETO movieDetails
 
   const movie = movieDetails[id || ""] || movieDetails.QiOnk_8Sw;
 
