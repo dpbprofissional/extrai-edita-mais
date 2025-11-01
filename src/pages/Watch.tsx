@@ -67,7 +67,7 @@ const Watch = () => {
           "4": {
             title: "Episódio 4 - A Verdade Vem à Tona",
             embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio4-dub",
+              dublado: "https://mxdrop.to/e/r609lqk4ad73kj",
               legendado: "https://mxdrop.to/e/episodio4-leg",
             },
           },
