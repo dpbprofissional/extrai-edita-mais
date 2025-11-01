@@ -80,17 +80,7 @@ const Watch = () => {
               legendado: "https://mxdrop.to/e/episodio1t2-leg",
             },
           },
-          "2": {
-            title: "Episódio 2 - O Novo Mistério",
-            embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio2t2-dub",
-              legendado: "https://mxdrop.to/e/episodio2t2-leg",
             },
-          },
-        },
-      },
-    },
-  };
 
   const movie = movieDetails[id || ""] || movieDetails.QiOnk_8Sw;
 
