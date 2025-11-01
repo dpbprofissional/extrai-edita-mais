@@ -53,7 +53,7 @@ const Watch = () => {
           "2": {
             title: "Episódio 2 - O Mistério Aprofunda",
             embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio2-dub",
+              dublado: "https://mxdrop.to/e/1no47n60crzvqo",
               legendado: "https://mxdrop.to/e/episodio2-leg",
             },
           },
