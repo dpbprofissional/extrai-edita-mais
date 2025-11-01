@@ -46,7 +46,7 @@ const Watch = () => {
           "1": {
             title: "Episódio 1 - O Início",
             embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio1-dub",
+              dublado: "https://mxdrop.to/e/gjdk3n9jsplpd0",
               legendado: "https://mxdrop.to/e/episodio1-leg",
             },
           },
