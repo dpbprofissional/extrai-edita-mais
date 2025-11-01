@@ -72,15 +72,6 @@ const Watch = () => {
             },
           },
         },
-        "2": {
-          "1": {
-            title: "Episódio 1 - Retorno à Escuridão",
-            embedUrl: {
-              dublado: "https://mxdrop.to/e/episodio1t2-dub",
-              legendado: "https://mxdrop.to/e/episodio1t2-leg",
-            },
-          },
-            },
 
   const movie = movieDetails[id || ""] || movieDetails.QiOnk_8Sw;
 
