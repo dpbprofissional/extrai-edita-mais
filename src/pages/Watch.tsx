@@ -33,7 +33,7 @@ const Watch = () => {
       description:
         "Em um futuro distópico, cem jovens são forçados a participar de uma competição mortal onde devem caminhar sem parar. Se pararem ou diminuírem o ritmo, são eliminados. Uma jornada intensa de sobrevivência e resistência.",
       type: "movie",
-      embedUrl: "https://mxdrop.to/e/dkrd6m1eu8k8p6",
+      embedUrl: "https://drive.google.com/drive/folders/1yGMXgD16Onb11CQiNRHML35Bf4QovHFl",
     },
 
     > = {
